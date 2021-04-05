@@ -14,7 +14,7 @@ app.use(express.urlencoded({ limit: "30mb", extended: "true" }));
 app.use(cors()); // For what?
 
 const CONNECTION_URL =
-  "mongodb+srv://Said:saidgolgolgol.@cluster0.b2qam.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://Said:<password>.@cluster0.b2qam.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 const PORT = process.env.PORT || 5000;
 
